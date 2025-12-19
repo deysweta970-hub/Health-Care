@@ -8,108 +8,100 @@ A comprehensive Power BI healthcare analytics dashboard designed to help hospita
 # Project Overview
 
 This dashboard provides a unified view of hospital performance by analyzing patient admissions, demographics, doctor performance, wait time efficiency, and satisfaction levels. It enables management to take data-driven decisions to improve service quality and operational efficiency.
-Problem Statement
+roblem Statement
 
-An e-commerce company wants to track its Year-to-Date (YTD) sales performance to understand revenue growth, profit trends, order quantity, cost structure, customer contribution, and product performance.
-The objective is to identify growth opportunities, profitable categories, top customers, and loss-making products to support strategic business decisions.
+A healthcare organization wants to monitor patient flow, admission status, waiting time, demographic distribution, and service quality to improve operational efficiency and patient satisfaction.
+The objective is to analyze hospital performance metrics and identify areas to reduce waiting time, improve admission efficiency, and enhance patient experience.
 
 # Objectives
 
-Monitor YTD Sales, Profit, Quantity, and Cost
+Track total patient count and admission status
 
-Compare current year vs previous year performance
+Monitor average patient age and waiting time
 
-Analyze sales by product category
+Measure patient satisfaction score
 
-Identify top customers by sales
+Analyze patients by age group, gender, and blood group
 
-Track order status distribution
+Evaluate monthly admission trends
 
-Evaluate state-wise sales performance
+Track patients attended within target waiting time (30 minutes)
 
-Detect low-performing products
+# Key KPIs
 
-#  Key KPIs (YTD)
+Total Patients: 4,999
 
-Sales Amount: $17.23M (+1.76% YoY)
+Average Age: 39.92 years
 
-Profit: $4.0M (+2.22% YoY)
+Average Waiting Time: 35.64 minutes
 
-Quantity Sold: 5,119 (+2.56% YoY)
-
-Cost: $13.23M (+1.62% YoY)
+Patient Satisfaction Score: 4.90 / 5
 
 # Key Insights
- Category Performance
+ Patient Admission Status
 
-Books and Beauty are the top revenue-generating categories.
+Over 90% of patients are admitted, indicating high service utilization.
 
-Electronics shows stable growth but moderate margins.
+A small percentage of non-admitted patients may require follow-up analysis.
 
-Home & Kitchen contributes lower revenue → scope for marketing optimization.
+ Age Group Distribution
 
- Customer Analysis
+Highest patient volume falls within the 20–50 age group.
 
-Top customers such as Ankit, Rahul, and Sneha contribute significantly to YTD sales.
+Senior patient count is steady, indicating consistent long-term care demand.
 
-Customer concentration suggests opportunity for loyalty & retention programs.
+ Blood Group Analysis
 
- Order Status Distribution
+O+ and A+ are the most common blood groups.
 
-Majority of orders are Delivered, indicating strong fulfillment performance.
+Useful for blood bank planning and inventory management.
 
-Cancelled and Returned orders require monitoring to reduce revenue leakage.
+ Monthly Admission Trend
 
- Geographic Performance
+Patient admissions increase steadily from January to May, peaking mid-year.
 
-High sales observed in major Indian states.
+Seasonal demand patterns can help in staff and resource planning.
 
-Certain regions show lower penetration, offering expansion opportunities.
+ Gender Distribution
 
- Profit Trend
+Male and Female patient distribution is almost equal, showing balanced service usage.
 
-YTD profit shows a steady upward trend across months.
+ Waiting Time Performance
 
-Profit growth outpaces sales growth, indicating improved cost efficiency.
+~60% of patients are seen within 30 minutes.
 
- Bottom Products
-
-Products like Mobile Accessories and Speakers generate lower profit.
-
-These items need pricing revision or supplier negotiation.
+~40% exceed target waiting time, indicating scope for process optimization.
 
 # Tools & Technologies Used
 
-Power BI – Dashboard & visual storytelling
+Power BI – Healthcare analytics dashboard
 
-DAX – YTD, YoY growth & KPI calculations
+DAX – KPI and performance measures
 
- CSV – E-commerce transaction data
+Excel / CSV – Patient data source
 
-Data Modeling – Star schema & relationships
+Data Modeling – Relationships & slicers
 
 # Dashboard Features
 
-KPI cards with YoY growth indicators
+KPI cards for quick hospital overview
 
-Category & product-level drill-down
+Interactive slicers (Doctor & Department)
 
-Map visualization for state-wise sales
+Demographic analysis with bar & donut charts
 
-Donut chart for order status
+Time-based trend analysis
 
-Trend analysis by month
+Clear healthcare-focused UI design
 
 # Business Recommendations
 
-Focus marketing on high-margin categories
+Improve patient triage process to reduce waiting time
 
-Reduce cancellations through better delivery SLAs
+Allocate more staff during peak admission months
 
-Promote top customers with personalized offers
+Use demographic insights for specialized care planning
 
-Rework pricing or discontinue low-profit products
-
-Expand operations in underperforming regions
+Monitor satisfaction score to maintain service quality
 # Dashboard
 <img width="773" height="441" alt="We Care" src="https://github.com/user-attachments/assets/ba508372-a91b-4353-b9aa-70914977463c" />
