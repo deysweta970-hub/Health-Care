@@ -7,101 +7,128 @@ A comprehensive Power BI healthcare analytics dashboard designed to help hospita
 
 # Project Overview
 
-This dashboard provides a unified view of hospital performance by analyzing patient admissions, demographics, doctor performance, wait time efficiency, and satisfaction levels. It enables management to take data-driven decisions to improve service quality and operational efficiency.
-roblem Statement
+The We Care Healthcare Dashboard provides a comprehensive analysis of patient flow, wait times, demographics, and service efficiency.
+This dashboard helps hospital management monitor patient admissions, operational performance, and patient satisfaction to improve healthcare delivery.
 
-A healthcare organization wants to monitor patient flow, admission status, waiting time, demographic distribution, and service quality to improve operational efficiency and patient satisfaction.
-The objective is to analyze hospital performance metrics and identify areas to reduce waiting time, improve admission efficiency, and enhance patient experience.
+# Business Objective
 
-# Objectives
+• The objective of this project is to:
 
-Track total patient count and admission status
+• Track patient admissions and visit volume
 
-Monitor average patient age and waiting time
+• Monitor average wait time and service efficiency
 
-Measure patient satisfaction score
+• Analyze patient demographics (age, gender, blood group)
 
-Analyze patients by age group, gender, and blood group
+• Measure patient satisfaction
 
-Evaluate monthly admission trends
+• Evaluate whether patients are seen within target wait time
 
-Track patients attended within target waiting time (30 minutes)
+# Dataset Information
 
-# Key KPIs
+• Domain: Healthcare Analytics
 
-Total Patients: 4,999
+• Records: ~5,000 patients
 
-Average Age: 39.92 years
+• Time Period: Monthly patient visits
 
-Average Waiting Time: 35.64 minutes
+• Key Fields:
 
-Patient Satisfaction Score: 4.90 / 5
+• Patient ID
 
-# Key Insights
- Patient Admission Status
+• Admission Status
 
-Over 90% of patients are admitted, indicating high service utilization.
+• Age Group
 
-A small percentage of non-admitted patients may require follow-up analysis.
+• Gender
 
- Age Group Distribution
+• Blood Group
 
-Highest patient volume falls within the 20–50 age group.
+• Doctor
 
-Senior patient count is steady, indicating consistent long-term care demand.
+• Department
 
- Blood Group Analysis
+• Waiting Time
 
-O+ and A+ are the most common blood groups.
+• Satisfaction Score
 
-Useful for blood bank planning and inventory management.
-
- Monthly Admission Trend
-
-Patient admissions increase steadily from January to May, peaking mid-year.
-
-Seasonal demand patterns can help in staff and resource planning.
-
- Gender Distribution
-
-Male and Female patient distribution is almost equal, showing balanced service usage.
-
- Waiting Time Performance
-
-~60% of patients are seen within 30 minutes.
-
-~40% exceed target waiting time, indicating scope for process optimization.
+• Visit Month
 
 # Tools & Technologies Used
 
-Power BI – Healthcare analytics dashboard
+• Excel – Data cleaning and formatting
 
-DAX – KPI and performance measures
+• Power BI – Data modeling, DAX measures, and dashboard creation
 
-Excel / CSV – Patient data source
+# Key KPIs
 
-Data Modeling – Relationships & slicers
+• Total Patients: 4,999
 
-# Dashboard Features
+• Average Age: 39.92 years
 
-KPI cards for quick hospital overview
+• Average Waiting Time: 35.64 minutes
 
-Interactive slicers (Doctor & Department)
+• Patient Satisfaction Score: 4.90 / 5
 
-Demographic analysis with bar & donut charts
+• These KPIs provide a quick snapshot of overall hospital performance.
 
-Time-based trend analysis
+#  Dashboard Insights
+1 Patient Admission Status
 
-Clear healthcare-focused UI design
+• ~90% patients were admitted, indicating high inpatient demand
 
-# Business Recommendations
+• A smaller portion of visits were non-admissions, useful for OPD analysis
 
-Improve patient triage process to reduce waiting time
+# Helps management plan bed capacity and resources.
 
-Allocate more staff during peak admission months
+2 Patients by Age Group
 
-Use demographic insights for specialized care planning
+• Highest patient volume is observed in adult and senior age groups
 
-Monitor satisfaction score to maintain service quality
+• Balanced distribution across age ranges shows diverse healthcare demand
+
+# Supports age-specific treatment and staffing planning.
+
+3 Patients by Blood Group
+
+• Blood groups O+ and A+ have the highest patient count
+
+• Rare blood groups have significantly lower representation
+
+# Useful for blood bank inventory and emergency preparedness.
+
+4 Monthly Patient Trend
+
+• Patient visits increased steadily from January to May
+
+• Slight drop in June, indicating possible seasonal variation
+
+# Helps forecast future patient inflow and staffing needs.
+
+5 Gender Distribution
+
+• Patient visits are almost equally split between male and female
+
+• Indicates balanced access to healthcare services
+
+# Supports gender-inclusive healthcare planning.
+
+6 Patients Seen Within 30 Minutes
+
+• 60% of patients met the target wait time
+
+• 40% exceeded the target, highlighting process improvement areas
+
+•  Helps improve service quality and reduce waiting time.
+
+# Key Business Takeaways
+
+• High patient volume requires efficient operational planning
+
+• Average waiting time can be reduced to improve satisfaction
+
+• Demographic insights help personalize healthcare services
+
+• Performance tracking enables better hospital decision-making
 # Dashboard
 <img width="773" height="441" alt="We Care" src="https://github.com/user-attachments/assets/ba508372-a91b-4353-b9aa-70914977463c" />
