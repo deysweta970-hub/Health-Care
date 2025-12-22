@@ -59,6 +59,35 @@ This dashboard helps hospital management monitor patient admissions, operational
 • Excel – Data cleaning and formatting
 
 • Power BI – Data modeling, DAX measures, and dashboard creation
+# Dax Formula
+• Total Patients = COUNT(Patients[Patient_ID])
+
+• Average Age = AVERAGE(Patients[Age])
+
+• Average Waiting Time =AVERAGE(Patients[Waiting_Time])
+
+• Satisfaction Score = AVERAGE(Patients[Satisfaction_Score])
+
+• Admitted Patients =CALCULATE(
+    COUNT(Patients[Patient_ID]),
+    Patients[Admission_Status] = "Admitted"
+)
+
+• Not Admitted Patients = CALCULATE(
+    COUNT(Patients[Patient_ID]),
+    Patients[Admission_Status] = "Not Admitted" )
+
+• Age Group = SWITCH(
+    TRUE(),
+    Patients[Age] <= 9, "0-9",
+    Patients[Age] <= 19, "10-19",
+    Patients[Age] <= 29, "20-29",
+    Patients[Age] <= 39, "30-39",
+    Patients[Age] <= 49, "40-49",
+    Patients[Age] <= 59, "50-59",
+    Patients[Age] <= 69, "60-69",
+    "70+" )
+•    Patients by Blood Group = COUNT(Patients[Patient_ID])
 
 # Key KPIs
 
