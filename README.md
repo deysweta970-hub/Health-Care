@@ -88,11 +88,9 @@ This dashboard helps hospital management monitor patient admissions, operational
     Patients[Age] <= 69, "60-69",
     "70+" )
 
-    Patients Seen Within 30 Min =
-• CALCULATE(
-    COUNT(Patients[Patient_ID]),
-    Patients[Waiting_Time] <= 30
-)
+   
+•  Patients Seen Within 30 Min = CALCULATE(  COUNT(Patients[Patient_ID]),
+    Patients[Waiting_Time] <= 30 )
 •    Patients by Blood Group = COUNT(Patients[Patient_ID])
 
 # Key KPIs
