@@ -87,6 +87,12 @@ This dashboard helps hospital management monitor patient admissions, operational
     Patients[Age] <= 59, "50-59",
     Patients[Age] <= 69, "60-69",
     "70+" )
+
+    Patients Seen Within 30 Min =
+• CALCULATE(
+    COUNT(Patients[Patient_ID]),
+    Patients[Waiting_Time] <= 30
+)
 •    Patients by Blood Group = COUNT(Patients[Patient_ID])
 
 # Key KPIs
@@ -104,7 +110,7 @@ This dashboard helps hospital management monitor patient admissions, operational
 #  Dashboard Insights
 1 Patient Admission Status
 
-• ~90% patients were admitted, indicating high inpatient demand
+• 90% patients were admitted, indicating high inpatient demand
 
 • A smaller portion of visits were non-admissions, useful for OPD analysis
 
